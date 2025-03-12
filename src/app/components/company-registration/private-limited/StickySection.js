@@ -8,8 +8,7 @@ export default function StickySection() {
       {/* Left Side: Full Width Content */}
       <div className="flex-1">
         {/* Private Limited Registration Information */}
-        <PrivateLimitedRegInfo />
-
+        <PrivateLimitedRegInfo />        
       </div>
 
       {/* Right Side: Sticky Contact Form */}
