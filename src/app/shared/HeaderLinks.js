@@ -222,7 +222,7 @@ export const HeaderLinks = [
                     {
                         id:'4.8.1',
                         title:"FSSAI Registration",
-                        link:'/',
+                        link:'/fssai-registration',
                     }
                 ]
             },
@@ -242,7 +242,7 @@ export const HeaderLinks = [
             {
                 id:'5.2',
                 title:'Website Portfolio',
-                link:'/'
+                link:'/website-portfolio'
             },
         ]
     },

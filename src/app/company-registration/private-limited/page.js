@@ -1,6 +1,5 @@
 "use client"
 
-import WhyChooseUs from "@/app/common/WhyChooseUs";
 import DocumentRequiredInfo from "@/app/components/company-registration/private-limited/DocumentRequiredInfo";
 import FAQ from "@/app/components/company-registration/private-limited/FAQ";
 import Features from "@/app/components/company-registration/private-limited/Features";
@@ -24,7 +23,6 @@ const PrivateLimited = ()=>{
             <FAQ/>
             <Feedback/>
             <PackagesSection/>
-            <WhyChooseUs/>
         </>
     )
 }
