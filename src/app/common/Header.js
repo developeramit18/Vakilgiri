@@ -19,7 +19,7 @@ export default function Header() {
 
   return (
     <div
-      className={`"w-full bg-[#F5F5F5] px-6 xl:px-9 py-2 sticky top-0 left-0 z-20 shadow-md ${poppins.className} "`}
+      className={`"w-full bg-[#F5F5F5] px-5 xl:px-9 py-2 sticky top-0 left-0 z-20 shadow-md ${poppins.className} "`}
     >
       <div className="w-full flex items-center justify-between sticky">
         {/* Hamburger */}
@@ -114,14 +114,14 @@ export default function Header() {
           </ul>
           <Link
             href={"/"}
-            className="bg-primary text-white text-sm px-2 py-1 font-normal rounded-md shadow-[0px_0px_2px_2px_#BEBEBE]"
+            className="bg-primary text-white text-sm px-[10px] py-1 font-normal rounded-md shadow-[0px_0px_2px_2px_#BEBEBE]"
           >
             Pay Now
           </Link>
         </div>
         <Link
           href={"/"}
-          className=" lg:hidden flex bg-primary text-white text-sm px-2 py-1 font-normal rounded-md shadow-[0px_0px_2px_2px_#BEBEBE]"
+          className=" lg:hidden flex bg-primary text-white text-sm px-[10px] py-1 font-normal rounded-md shadow-[0px_0px_2px_2px_#BEBEBE]"
         >
           Pay Now
         </Link>
