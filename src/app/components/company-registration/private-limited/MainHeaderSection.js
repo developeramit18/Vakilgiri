@@ -45,7 +45,7 @@ export default function HeroSection() {
         {/* contact form */}
         <div className="absolute top-1/2 left-[40%] z-10 -translate-y-1/2">
 
-            <ContactForm width={'350px'} shadow={true} paddingX={'16px'} paddingY={'16px'}/>
+            <ContactForm width={'350px'} shadow={true} paddingX={'16px'} paddingY={'16px'} title={'Talk to advisor'} img={true}/>
         </div>
         {/* Right section */}
         <div className="w-full max-w-xl h-full">

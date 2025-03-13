@@ -19,6 +19,10 @@ export default function StickySection() {
           paddingX={"8px"}
           paddingY={"16px"}
           sticky={true}
+          img={true}
+          title={'Talk to advisor'}
+          boldSubtitle={"CONSULT"}
+          subtitle={"Our Experts"}
         />
       </div>
     </div>

@@ -12,6 +12,7 @@ export default function ContactForm({
   sticky,
   img,
   title,
+  boldSubtitle,
   subtitle,
 }) {
   return (
@@ -37,9 +38,8 @@ export default function ContactForm({
       </h3>
       )}
 
-        <h4 className="text-center poppins text-[15px] font-medium">
-        Please Fill This Form To <strong>Kick Start {subtitle && `your ${subtitle}`}</strong> {!subtitle && "your journey"} with
-        us
+        <h4 className="text-center poppins text-[15px] font-medium capitalize">
+        Please Fill This Form To <strong>{boldSubtitle ? boldSubtitle : 'kick start'}</strong> {subtitle ? subtitle : "your journey with us"} 
       </h4>
       <form className="w-full my-2 space-y-1">
         <input
